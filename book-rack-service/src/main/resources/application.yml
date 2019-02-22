@@ -1,0 +1,14 @@
+spring:
+  application: 
+    name: book-rack-service
+
+server: 
+  port: 8098
+
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: ${EUREKA_URI:http://localhost:8095/eureka}
+      
+logging: 
+  file: target/${spring.application.name}.log

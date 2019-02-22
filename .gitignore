@@ -2,3 +2,7 @@
 service-registry/target/
 
 service-registry/\.settings/
+
+book-rack-service/\.settings/
+
+book-rack-service/target/
