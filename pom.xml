@@ -23,5 +23,6 @@
 	<modules>
 		<module>service-registry</module>
 		<module>book-rack-service</module>
+		<module>book-service</module>
 	</modules>
 </project>

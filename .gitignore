@@ -6,3 +6,5 @@ service-registry/\.settings/
 book-rack-service/\.settings/
 
 book-rack-service/target/
+
+book-service/target/

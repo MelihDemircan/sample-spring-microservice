@@ -1,0 +1,14 @@
+spring:
+  application: 
+    name: book-service
+
+server: 
+  port: ${PORT:8025}
+
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: ${EUREKA_URI:http://localhost:8095/eureka}
+      
+logging: 
+  file: target/${spring.application.name}.log
