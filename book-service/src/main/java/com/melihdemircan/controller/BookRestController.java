@@ -7,9 +7,11 @@ import java.util.stream.Collectors;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.melihdemircan.entity.Book;
 
+@RestController
 public class BookRestController {
 
 	private List<Book> accounts;
